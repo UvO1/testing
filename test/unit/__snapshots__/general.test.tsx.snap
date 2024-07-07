@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`General testes При клике на гамбургер раскрываются элементы меню 1`] = `
+<div
+  class="Application-Menu navbar-collapse"
+>
+  <div
+    class="navbar-nav"
+  >
+    <a
+      class="nav-link"
+      href="/catalog"
+    >
+      Catalog
+    </a>
+    <a
+      aria-current="page"
+      class="active nav-link"
+      href="/delivery"
+    >
+      Delivery
+    </a>
+    <a
+      class="nav-link"
+      href="/contacts"
+    >
+      Contacts
+    </a>
+    <a
+      class="nav-link"
+      href="/cart"
+    >
+      Cart
+    </a>
+  </div>
+</div>
+`;
+
+exports[`General testes При клике на ссылку в раскрывшемся гамбургере меню ссылок сворачиывается 1`] = `
+<div
+  class="Application-Menu collapse navbar-collapse"
+>
+  <div
+    class="navbar-nav"
+  >
+    <a
+      class="nav-link"
+      href="/catalog"
+    >
+      Catalog
+    </a>
+    <a
+      aria-current="page"
+      class="active nav-link"
+      href="/delivery"
+    >
+      Delivery
+    </a>
+    <a
+      class="nav-link"
+      href="/contacts"
+    >
+      Contacts
+    </a>
+    <a
+      class="nav-link"
+      href="/cart"
+    >
+      Cart
+    </a>
+  </div>
+</div>
+`;

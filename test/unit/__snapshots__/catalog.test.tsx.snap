@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog на странице с подробной информацией отображаются: название товара, его описание, цена, цвет, материал и кнопка "добавить в корзину" 1`] = `
+<div
+  className="Application"
+>
+  <nav
+    className="navbar navbar-expand-sm navbar-light bg-light"
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="Application-Brand navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        Kogtetochka store
+      </a>
+      <button
+        aria-label="Toggle navigation"
+        className="Application-Toggler navbar-toggler"
+        onClick={[Function]}
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        className="Application-Menu collapse navbar-collapse"
+      >
+        <div
+          className="navbar-nav"
+        >
+          <a
+            aria-current="page"
+            className="active nav-link"
+            href="/catalog"
+            onClick={[Function]}
+          >
+            Catalog
+          </a>
+          <a
+            className="nav-link"
+            href="/delivery"
+            onClick={[Function]}
+          >
+            Delivery
+          </a>
+          <a
+            className="nav-link"
+            href="/contacts"
+            onClick={[Function]}
+          >
+            Contacts
+          </a>
+          <a
+            className="nav-link"
+            href="/cart"
+            onClick={[Function]}
+          >
+            Cart
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="container pt-4"
+  >
+    <div
+      className="Product"
+    >
+      <div
+        className="ProductDetails row"
+      >
+        <div
+          className="col-12 col-sm-5 col-lg-4"
+        >
+          <img
+            className="Image"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkMAYAADkANVKH3ScAAAAASUVORK5CYII="
+          />
+        </div>
+        <div
+          className="col-12 col-sm-7 col-lg-6"
+        >
+          <h1
+            className="ProductDetails-Name"
+          >
+            Practical kogtetochka
+          </h1>
+          <p
+            className="ProductDetails-Description"
+          >
+            Really Unbranded kogtetochka for Snowshoe
+          </p>
+          <p
+            className="ProductDetails-Price fs-3"
+          >
+            $
+            685
+          </p>
+          <p>
+            <button
+              className="ProductDetails-AddToCart btn btn-primary btn-lg"
+              onClick={[Function]}
+            >
+              Add to Cart
+            </button>
+          </p>
+          <dl>
+            <dt>
+              Color
+            </dt>
+            <dd
+              className="ProductDetails-Color text-capitalize"
+            >
+              Ivory
+            </dd>
+            <dt>
+              Material
+            </dt>
+            <dd
+              className="ProductDetails-Material text-capitalize"
+            >
+              Wooden
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
